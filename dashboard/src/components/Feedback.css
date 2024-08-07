@@ -1,0 +1,43 @@
+.feedback-container {
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.feedback-card {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.feedback-info {
+  flex: 1;
+}
+
+.feedback-info h3 {
+  margin: 0 0 8px;
+}
+
+.rating {
+  margin: 0 0 8px;
+  font-weight: bold;
+}
+
+.message {
+  margin: 0;
+  /* font-style: italic; */
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.SidebarContainer {
+  width: 80px;
+  background-color: #2a2d2e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  /* height: 100vh; */
+}
+
+.move-to-end {
+  margin-top: auto;
+}
+
+.SidebarIcon {
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+  &:hover {
+    color: #00bcd4;
+  }
+}

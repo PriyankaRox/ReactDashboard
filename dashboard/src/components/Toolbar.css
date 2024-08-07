@@ -1,0 +1,74 @@
+.ToolbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2a2d2e;
+  color: #fff;
+}
+
+/* .SearchBar {
+  background-color: #2a2d2e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+} */
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Adjust padding to make room for the icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.search-input::placeholder {
+  color: white;
+  opacity: 1; /* Ensures the color is fully applied */
+}
+
+.IconsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  margin-left: 20px;
+  cursor: pointer;
+  &:hover {
+    color: #00bcd4;
+  }
+}
+
+.notification-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.notification-dot {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
